@@ -145,28 +145,4 @@ Implemnt a cube root procedure anologous to the square root procedure
 
 
 
-
-
-; Exercise 1.10
-
-; First one is recursive, second iterative:
-#|
-(+ 4 5)
-(inc (+ (dec 4) 5))
-(inc (+ 3 5))
-(inc (inc (+ (dec 3) 5)))
-(inc (inc (+ 2 5)))
-
-etc
-
-(+ 4 5)
-(+ (dec 4) (inc 5))
-(+ 3 6)
-(+ (dec 3) (inc 6))
-(+ 2 7)
-etc
-|#
-
-
-
       
